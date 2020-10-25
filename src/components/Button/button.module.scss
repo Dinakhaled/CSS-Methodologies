@@ -1,0 +1,18 @@
+.button {
+  padding: 10px 15px;
+  cursor: pointer;
+
+  &.primary {
+    background-color: rgb(231, 121, 18);
+    color: white;
+  }
+
+  &.secondary {
+    background-color: pink;
+    color: white;
+  }
+
+  &:hover {
+    color: black;
+  }
+}
