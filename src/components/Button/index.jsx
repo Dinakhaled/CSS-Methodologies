@@ -3,7 +3,7 @@ import styles from "./button.module.scss";
 
 const Button = ({ className = "" }) => {
   return (
-    <button className={`${styles.button} ${styles[`${className}`]}`}>
+    <button className={`${styles.button} ${styles[className]}`}>
       Click here
     </button>
   );
