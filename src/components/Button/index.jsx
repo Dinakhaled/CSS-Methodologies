@@ -3,7 +3,9 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   button: {
-    color: "green",
+    color: "white",
+    backgroundColor: "orange",
+    outline: "none",
     padding: {
       top: 10,
       right: 15,
@@ -12,7 +14,6 @@ const useStyles = createUseStyles({
     },
     "&.primary": {
       backgroundColor: "#000",
-      color: "#fff",
       fontSize: (props) => props.fontSize,
     },
   },
